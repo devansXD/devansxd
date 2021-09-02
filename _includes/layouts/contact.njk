@@ -1,9 +1,13 @@
----
-layout: layouts/base.njk
-section: contact
----
+{% extends "base.html" %}
+
+{% block header %}
 <h1>{{ title }}</h1>
+{% endblock %}
 
-{{ layoutContent | safe }}
-
-{% include "components/form.njk" %}
+{% block content %}
+<ul>
+  {% for name, item in items %}
+  <li>{{ name }}: {{ item }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,31 @@
+
+{% block head %}
+  {% include "components/head.njk" %}
+{% endblock %}
+
+{% set bodyClasses = "body" %}
+
+{% block pageTitle %}
+  TEST
+{% endblock %}
+
+{% block header %}
+  {% include "components/nav.njk" %}
+  <header>
+    <div class="wrapper-header">
+      <div class="header-logo">
+    
+      </div>
+      <div class="header-title">
+        <a href="/" class="header-name">Logo</a>
+      </div>
+    </div>
+  </header>
+{% endblock %}
+
+
+  {% block footer %}
+  {% include "components/footer.njk" %}
+  {% endblock %}
+
+

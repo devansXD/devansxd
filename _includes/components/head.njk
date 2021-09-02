@@ -1,12 +1,14 @@
 <head>
-  <meta charset="utf-8">
-  <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ renderData.title or title or metadata.title }}</title>
-  <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
-  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {% set css %}
-    {% include "assets/css/inline.css" %}
+    <meta charset="utf-8">
+    <link rel="dns-prefetch" href="https://identity.netlify.com">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home</title>
+    <meta name="description" content="Dave Evans Blog.">
+    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type=""></script>
+    <script>window.netlifyIdentity && window.netlifyIdentity.on("init", n => { n || window.netlifyIdentity.on("login", () => { document.location.href = "/admin/" }) });</script>
+     {% set css %}
+    {% include "assets/css/main.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
