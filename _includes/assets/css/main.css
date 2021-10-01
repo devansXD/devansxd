@@ -1,6 +1,6 @@
 :root {
 $primary: #E2674D;
-$secondary: #c2fff9;
+$secondary: salmon;
 $background:'#f9f9f9';
 }
 
@@ -40,7 +40,8 @@ code {
 
 a[href],
 a[href]:visited {
-	color: #c2fff9;
+	color:#000;
+	
 }
 
 a[href]:not(:hover) {
@@ -201,4 +202,19 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+footer ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	
+}
+footer li{
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+#HeroSection{
+	padding: 16px;;
+	background-color: #c2fff9;
 }
