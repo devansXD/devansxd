@@ -76,6 +76,9 @@ module.exports = function(eleventyConfig) {
   });
 
   // Don't process folders with static assets e.g. images
+  eleventyConfig.addPassthroughCopy("./site/includes/asets/css/");
+  eleventyConfig.addWatchTarget("./site/includes/asets/css/");
+
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
@@ -111,9 +114,10 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     dir: {
       input: ".",
+      output: "_site",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      
     }
   };
 };
