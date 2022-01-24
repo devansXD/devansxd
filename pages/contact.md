@@ -11,5 +11,5 @@ eleventyNavigation:
 
 ## Get in touch with me
 
-If your's interested in working with me to improve your product or service, or help mentor and coach your team in user cntred practices, please reach out and lets talk:
+If your's interested in working with me to improve your product or service, or help mentor and coach your team in user cntred practices, please reach out and [lets talk](mailto:xd.davidevans@gmail.com)
 

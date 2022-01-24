@@ -49,21 +49,45 @@ code {
 	line-height: 1.5;
 }
 
-a[href],
+header, footer {
+	a[href],
 a[href]:visited {
+	
 	color:#000;
+	text-decoration: underline;
+	
 	
 }
+a[href]:hover{
+	text-decoration: underline;
 
-a[href]:not(:hover) {
-	text-decoration: none;
 }
+
+}
+main {
+	a[href],
+	a[href]:visited {
+		
+		color:$primary-brand;
+		text-decoration: underline;
+		
+		
+	}
+	a[href]:hover{
+		text-decoration: underline;
+	
+	}
+
+}
+
 
 img {
 	max-width: 100%;
 	height: auto;
 }
-
+#container a{
+	color: $primary-brand;
+}
 header,
 main,
 footer {
@@ -134,7 +158,7 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	
-	border-bottom: 3px solid $primary-brand;
+	border-bottom: 4px solid $primary-brand;
 }
 
 /* Posts List */
@@ -201,7 +225,7 @@ button {
 
 input,
 textarea {
-	border: 1px solid black;
+	border: 1px solid $border;
 }
 
 button {
@@ -231,11 +255,11 @@ footer li{
 #HeroWrapper{
 	width: 100%;
 	background-color: $secondary-brand;
+	margin-bottom: 36px;
 }
 #HeroSection{
 	
 	max-width: 37.5em;
-
-	
+	height: 5em;
 
 }

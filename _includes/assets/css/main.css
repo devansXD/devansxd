@@ -31,18 +31,34 @@ code {
   line-height: 1.5;
 }
 
-a[href],
-a[href]:visited {
+header a[href],
+header a[href]:visited, footer a[href],
+footer a[href]:visited {
   color: #000;
+  text-decoration: underline;
 }
 
-a[href]:not(:hover) {
-  text-decoration: none;
+header a[href]:hover, footer a[href]:hover {
+  text-decoration: underline;
+}
+
+main a[href],
+main a[href]:visited {
+  color: #E2674D;
+  text-decoration: underline;
+}
+
+main a[href]:hover {
+  text-decoration: underline;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+#container a {
+  color: #E2674D;
 }
 
 header,
@@ -112,7 +128,7 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-  border-bottom: 3px solid #E2674D;
+  border-bottom: 4px solid #E2674D;
 }
 
 /* Posts List */
@@ -180,7 +196,7 @@ button {
 
 input,
 textarea {
-  border: 1px solid black;
+  border: 1px solid #4E5455;
 }
 
 button {
@@ -216,9 +232,11 @@ footer li {
 #HeroWrapper {
   width: 100%;
   background-color: #c2fff9;
+  margin-bottom: 36px;
 }
 
 #HeroSection {
   max-width: 37.5em;
+  height: 5em;
 }
 /*# sourceMappingURL=main.css.map */
