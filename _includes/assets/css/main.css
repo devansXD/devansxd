@@ -1,3 +1,26 @@
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
 html,
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -5,6 +28,7 @@ body {
   line-height: 1.5;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  color: #494949;
 }
 
 body {
@@ -16,13 +40,9 @@ body {
   background-color: #f9f9f9;
 }
 
-main, nav, footer, .header-wrapper, #HeroSection {
+main, nav, footer, #HeroSection {
   max-width: 37.5em;
   margin: 0 auto;
-}
-
-p {
-  font-size: 1.25em;
 }
 
 p,
@@ -34,7 +54,7 @@ code {
 header a[href],
 header a[href]:visited, footer a[href],
 footer a[href]:visited {
-  color: #000;
+  color: #494949;
   text-decoration: underline;
 }
 
@@ -64,12 +84,18 @@ img {
 header,
 main,
 footer {
-  padding: 1em;
+  padding: 1em 0;
   width: 100%;
 }
 
 main {
   padding-bottom: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  header, main, footer {
+    padding: 1em;
+  }
 }
 
 main :first-child,
@@ -94,19 +120,33 @@ pre {
   margin: .5em 0;
 }
 
-/* Header Logo (style as h2) */
-header > em {
+header {
   display: block;
-  font-size: 2em;
-  margin: .67em 0;
-  font-weight: bold;
-  font-style: normal;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 /* Header Nav */
 header nav ul {
   padding: 0;
   list-style: none;
+  float: right;
 }
 
 header nav ul :first-child {
@@ -117,6 +157,12 @@ header nav li {
   display: inline-block;
   margin: 0 .25em;
   font-size: 1.2em;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav li {
+    font-size: 1em;
+  }
 }
 
 header nav li a {
@@ -238,5 +284,15 @@ footer li {
 #HeroSection {
   max-width: 37.5em;
   height: 5em;
+}
+
+a#Logo {
+  padding: .5em;
+  border: 3px solid #E2674D;
+  text-decoration: none;
+  color: #494949;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
 }
 /*# sourceMappingURL=main.css.map */
