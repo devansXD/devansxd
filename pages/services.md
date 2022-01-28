@@ -6,15 +6,16 @@ description: I'm an experienced interaction and service designer.
 permalink: /services/index.html
 eleventyNavigation:
   key: Services
-  order: 2
+  order: 1
 ---
 
 ## Designing products and services
 
-I am Home Office assessment trained, and have worked against the GDS and NHS standard for 4 years, across massively complex landscapes. My work encompasses GDS and NHS design principles, working in tangent in multi disciplinary teams, both at the product and service level. 
+I create products and services that meet the needs of users. I have worked as a design lead in the public sector for 4 years and am passionate about embedding high standards of design across teams, growing talent, and delivering world class services and products to citizens and government users.
 
 - Prototyping
-- Blueprinting and beyond
+- Service design strategy
+- Stakeholdr influencing
 - Workshop facilitation
 - Accessibility guidance and support
 

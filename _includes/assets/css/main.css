@@ -25,7 +25,7 @@ html,
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.2em;
-  line-height: 1.5;
+  line-height: 1.5em;
   overflow-wrap: break-word;
   word-wrap: break-word;
   color: #494949;
@@ -48,7 +48,9 @@ main, nav, footer, #HeroSection {
 p,
 pre,
 code {
-  line-height: 1.5;
+  line-height: 1.5em;
+  display: block;
+  margin-bottom: 32px;
 }
 
 header a[href],
@@ -62,13 +64,13 @@ header a[href]:hover, footer a[href]:hover {
   text-decoration: underline;
 }
 
-main a[href],
-main a[href]:visited {
+a[href],
+a[href]:visited {
   color: #E2674D;
   text-decoration: underline;
 }
 
-main a[href]:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
@@ -86,6 +88,11 @@ main,
 footer {
   padding: 1em 0;
   width: 100%;
+}
+
+p.lede-text {
+  font-size: 1.2em;
+  line-height: 1.3em;
 }
 
 main {
@@ -233,23 +240,13 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
   padding: 1em;
   margin-bottom: 1em;
-  font-size: 1rem;
-  font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
 input,
 textarea {
   border: 1px solid #4E5455;
-}
-
-button {
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
-  color: var(--secondary);
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -294,5 +291,32 @@ a#Logo {
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'PT Serif', serif;
+}
+
+button {
+  font-size: 1em;
+}
+
+a.btn {
+  font-size: 1em;
+  display: inline-block;
+}
+
+a.btn-primary {
+  background-color: #E2674D;
+  padding: 1em;
+  -webkit-box-shadow: 1px;
+          box-shadow: 1px;
+  color: #f9f9f9;
+}
+
+a.btn-primary :hover {
+  background-color: #e2674d;
+}
+
+a.btn-secondary {
+  background-color: #c2fff9;
+  padding: .5em;
+  color: #898989;
 }
 /*# sourceMappingURL=main.css.map */

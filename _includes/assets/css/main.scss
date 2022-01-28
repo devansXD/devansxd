@@ -13,6 +13,10 @@ $primary-font: #494949;
 $secondary-font: #898989;
 $font-body: 1.2em;
 
+// BUTTONS
+$primary-button: #f9f9f9;
+$secondary-button: #898989;
+
 
 // BORDERS 
 
@@ -46,7 +50,7 @@ html,
 body {
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: $font-body;
-    line-height: 1.5;
+    line-height: 1.5em;
     overflow-wrap: break-word;
     word-wrap: break-word;
 	color: $primary-font;
@@ -67,7 +71,9 @@ main, nav, footer, #HeroSection  {
 p,
 pre,
 code {
-	line-height: 1.5;
+	line-height: 1.5em;
+	display: block;
+	margin-bottom: 32px;
 }
 
 header, footer {
@@ -85,7 +91,7 @@ a[href]:hover{
 }
 
 }
-main {
+
 	a[href],
 	a[href]:visited {
 		
@@ -98,8 +104,6 @@ main {
 		text-decoration: underline;
 	
 	}
-
-}
 
 
 img {
@@ -116,7 +120,10 @@ footer {
 	width: 100%;
 
 }
-
+p.lede-text{
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
 main {
 	padding-bottom: 2em;
 }
@@ -254,11 +261,8 @@ form label {
 input,
 textarea,
 button {
-  width: 100%;
   padding: 1em;
   margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
 input,
@@ -266,12 +270,7 @@ textarea {
 	border: 1px solid $border;
 }
 
-button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
-}
+
 
 @media screen and (min-width:768px) {
 	:root {
@@ -310,4 +309,26 @@ a#Logo{
 	text-transform: uppercase;
 	font-family: 'PT Serif', serif;
 	
+}
+button{
+	font-size: 1em;
+}
+a.btn{
+	font-size: 1em;
+	display:inline-block;
+}
+a.btn-primary{
+	background-color:$primary-brand;
+	padding: 1em;
+	box-shadow: 1px;
+	color: $primary-button;
+	:hover{
+		background-color: opacify($color: $primary-brand, $amount: .5);
+	}
+}
+a.btn-secondary{
+	background-color:$secondary-brand;
+	padding: .5em;
+	color: $secondary-button;
+
 }
