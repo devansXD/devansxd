@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: Services
 metaDescription: What I do.
-description: I'm an experienced interaction and service designer.
+description: I design products, help teams grow, and UCD practice flourish.
 permalink: /services/index.html
 eleventyNavigation:
   key: Services
@@ -23,6 +23,12 @@ I create products and services that meet the needs of users. I have worked as a 
 ## Coaching and mentoring
 
 I have now coached and mentored dozens of NHS Digital and Home Office colleagues in both basic user centred design practice, and prototyping methods. I’m proud to have grown UCD as a practice in incredibly large and complex organisations, and helped build the confidence of many junior designers.
+
+<figure>
+    <img src="/_includes/assets/img/coaching.JPG"
+         alt="Image of me, facilitating a course for NHS Digital colleagues in UCD">
+    <figcaption>Me, facilitating a course for NHS Digital colleagues in UCD</figcaption>
+</figure>
 
 ## Building out UCD practice
 

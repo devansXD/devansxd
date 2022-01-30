@@ -9,68 +9,32 @@ eleventyNavigation:
   order: 2
 ---
 
+<section>
 
-## Home Office design system
 
-Role: Interaction design lead
+<h2><a href="/case-studies/home-office-design-ops/">Home Office Design Ops</a></h2>
 
-Duration: 6 months
+**Interaction Design Lead**, August 2021
 
-When: June 2021
+</section>
 
-[view case study](/pages/home-office-design-system)
+<section>
+<h2><a href="/case-studies/breast-screening/">NHS Breast Screening</a></h2>
 
-First Term
-: This is the definition of the first term.
+**Service Design Lead**, March 2021
 
-Second Term
-:  This is one definition of the second term.
-definition
+</section>
 
-## NHS Breast Screening
+<section>
+<h2><a href="/case-studies/cervical-screening/">NHS Cervical Screening</a></h2>
 
-<dl>
-<dt>Role</dt>
+**Interaction Design Lead**, December 2020
+</section>
 
-<dd>Interaction design lead</dd>
+<section>
+<h2><a href="/case-studies/nhs-referrals/">NHS Referrals</a></h2>
 
-<dt>Duration</dt>
-<dd>6 months</dd>
-
-<dt>When</dt>
-<dd>March 2020</dd>
-
-</dl>
-
-I need to highlight these ==very important words==.
-
-[view case study](/pages/breast-cancer-screening)
-
-## NHS Cervical Screening
-
-Role
-: Interaction design lead
-
-Duration
-: 1 year
-
-When
-:December 2019
-
-[view case study](/pages/cervical-cancer-screening)
-
-## NHS eReferral System
-
-Role
-: Interaction design lead
-
-Duration
-: 6 months
-
-When
-:December 2019
-
-[view case study](/pages/ereferral-system)
-
+**Interaction Design Lead**, December 2019
+</section>
 
 

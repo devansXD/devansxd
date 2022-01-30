@@ -1,0 +1,23 @@
+.summary-list{
+    margin-bottom: 36px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1em;
+    .summary-list_row{
+        display: table-row;
+    }
+    .summary-list_key{
+        width: 50%;
+        font-weight: 700;
+        margin-bottom: 4px;
+        display: table-cell;
+        padding: 4px;
+    }
+    .summary-list_detail{
+        width: 50%;
+        display: table-cell;
+        padding: 4px;
+
+    }
+}
