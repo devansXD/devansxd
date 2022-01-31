@@ -8,4 +8,3 @@ thing: Designing a clinically safe replacement for the national cervical cancer 
 ---
 
 ## Not yet ready
-

@@ -1,6 +1,18 @@
-@import url("components/summary-list.css");
+@font-face {
+  font-family: 'Tiempos Headline Black';
+  src: url('TiemposHeadline-Black.eot');
+  src: url('TiemposHeadline-Black.eot?#iefix') format('embedded-opentype'),
+  url('TiemposHeadline-Black.woff') format('woff'),
+  url('TiemposHeadline-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+
+
 h1 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Tiempos Headline', serif;
   display: block;
   font-size: 3em;
   line-height: 1em;
@@ -100,10 +112,9 @@ footer {
   padding: 1em 0;
   width: 100%;
 }
-@media only screen and (min-width: 600px) {
+
 .indented-content {
   padding-left: 64px;
-}
 }
 
 p.lede-text {
@@ -118,7 +129,7 @@ main {
 
 @media only screen and (min-width: 600px) {
   header, main, footer {
-    padding: 1em;
+    padding: 1em 0;
   }
 }
 
@@ -179,12 +190,12 @@ header {
     list-style: none;
     float: right;
   }
-
+}
 
 header nav ul :first-child {
   margin-left: 0;
 }
-}
+
 header nav li {
   display: inline-block;
   margin: 0 .25em;
@@ -198,12 +209,8 @@ header nav li {
 }
 
 @media only screen and (max-width: 599px) {
-  header ul{
-    margin-left:0;
-    padding-left:0;
-  }
   header nav li {
-    font-size: .625em;
+    font-size: 1em;
   }
 }
 
@@ -234,8 +241,13 @@ main > section > article > * {
   margin-top: 0;
   margin-bottom: .5em;
 }
-section{
+
+section {
   margin-bottom: 64px;
+}
+
+section h2{
+  margin: 0;
 }
 
 /* Post Tags */
