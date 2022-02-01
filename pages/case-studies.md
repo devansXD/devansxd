@@ -18,12 +18,6 @@ eleventyNavigation:
 
 </section>
 
-<section>
-<h2><a href="/case-studies/breast-screening/">NHS Breast Screening</a></h2>
-
-**Service Design Lead**, March 2021
-
-</section>
 
 <section>
 <h2><a href="/case-studies/cervical-screening/">NHS Cervical Screening</a></h2>
@@ -31,10 +25,6 @@ eleventyNavigation:
 **Interaction Design Lead**, December 2020
 </section>
 
-<section>
-<h2><a href="/case-studies/nhs-referrals/">NHS Referrals</a></h2>
 
-**Interaction Design Lead**, December 2019
-</section>
 
 

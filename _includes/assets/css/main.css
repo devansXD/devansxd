@@ -20,6 +20,8 @@ h1 {
 }
 
 h2 {
+  font-family: 'Tiempos Headline', serif;
+  display: block;
   font-size: 2em;
   line-height: 1em;
 }
@@ -246,7 +248,7 @@ section {
   margin-bottom: 64px;
 }
 
-section h2{
+section h2, section p{
   margin: 0;
 }
 
@@ -403,3 +405,16 @@ a.btn-secondary {
   padding: 4px;
 }
 /*# sourceMappingURL=main.css.map */
+
+/* MARGINS */
+
+.margin-s{
+  margin: 32px;
+
+}
+.margin-m{
+  margin: 64px;
+}
+.margin-l{
+  margin: 128px;
+}
