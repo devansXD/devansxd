@@ -18,9 +18,28 @@ I was engaged by the UCD Ops team to take on the design segment of the intoducti
 In late 2021, I facilitated a Blueprinting exercise which now forms the backbone of how people can engage and contribute to our standards. After which I published guidance on our contribution process, and have facilitated a patterns workshop with UCD to test the process itself. The output of this will be a published page of guidance available to the community on the [design system](https://design.homeoffice.gov.uk/)
 
 
-
 ## Documenting patterns
 
+Building on the contribution model, I wanted to set an example to the community and take on a nitty gritty design pattern challenge; I chose search, as this seemed to come up time after time as a pattern people needed help and guidance with. 
+
+### Running workshops
+I invited the UCD community to a remote Mural based workshop, where we would discuss:
+
+- Search examples from a service, with screenshots
+- Common search based problems and solutions
+- What guidance would be useful for those teams starting over
+- What an MVP of guidance might look like
+
+### Outputs and outcomes
+With some priorities for the search pattern now firmly established, I set to work, gathering the fundamental basic requirements for the community. These were:
+
+- Fuzzy searching
+- When to use search over another pattern
+- Technical constraints
+- Narrpwing down / filtering
+- Exact matches
+
+I created a linked backlog item in the [design system](https://design.homeoffice.gov.uk/) where people can discuss the pattern for future iterations, and worked with Marion and Guerman, to help with content and accessibility on the guidance to be published. The result was several months of iteration and a final draft that provides a base for [search pattern documentation](https://design.homeoffice.gov.uk/patterns/search-for-something)
 
 ## Building a proto-prototype kit
 

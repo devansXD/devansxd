@@ -45,7 +45,7 @@ h2 a[href] {
 html,
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1875em;
   line-height: 1.5em;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -64,6 +64,12 @@ body {
 main, nav, footer, #HeroSection {
   max-width: 37.5em;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 599px) {
+main, nav, footer{
+  padding: 0 1em;
+}
 }
 
 p,
@@ -108,15 +114,18 @@ img.border {
   color: #E2674D;
 }
 
+@media only screen and (min-width: 600px) {
 header,
 main,
 footer {
   padding: 1em 0;
   width: 100%;
 }
-
+}
+@media only screen and (min-width: 600px) {
 .indented-content {
   padding-left: 64px;
+}
 }
 
 p.lede-text {
