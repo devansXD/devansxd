@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 title: About me
 metaDescription: About me.
-description: Who you are hiring.
+description: Who you are hiring
 permalink: /about/index.html
-eleventyNavigation:
-  key: About
-  order: 3
+
 ---
 
 
-Based in North Leeds (Boston Spa) with my wife and son, I enjoy spending time with my family, attempting to grow fruit and veg at my allotment, cycling around the roads of the surrounding countryside, and photography.
+I'm an interaction and service designer Based in North Leeds (Boston Spa) with my wife and son.
+
+In my spare time, I enjoy spending time with my family, attempting to grow fruit and veg at my allotment, cycling around the roads of the surrounding [North Yorkshire countryside](https://www.strava.com/athletes/24997533), and photography.
 
 
 <figure>

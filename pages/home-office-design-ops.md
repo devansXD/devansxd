@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: Home Office Design Ops
 metaDescription: Case Study, NHS Cervical Screening
-description: Helping to run the design ops team and build standards across Home Office DDaT
+description: Helping to build design system standards across Home Office DDaT
 permalink: /case-studies/home-office-design-ops/
 ---
 
@@ -22,7 +22,7 @@ Some time after, in late 2021,as part of the design systems work, I facilitated 
 The contribution model session had around 40 people take part, and involved looking at a 'to be' version of a what might be a typical user journey of somone wishing to contribute a pattern or component to the Home Office design system. Together we looked at phases, people, tools and governance.
 
 <figure>
-    <img class="shadow" src="/_includes/assets/img/ds-blueprint.png"
+    <img class="shadow margin-top-64" src="/_includes/assets/img/ds-blueprint.png"
          alt="Image of the Design system contribution blueprint">
     <figcaption>Design System contribution model</figcaption>
 </figure>
@@ -38,7 +38,7 @@ Building on the contribution model, I wanted an example to use which would test 
 
 
 <figure>
-    <img class="shadow blur" src="/_includes/assets/img/pattern-workshop.png"
+    <img class="shadow blur margin-top-64" src="/_includes/assets/img/pattern-workshop.png"
          alt="Image of the Mural board used during the pattern workshop">
     <figcaption>Pattern workshop output</figcaption>
 </figure>
@@ -54,11 +54,11 @@ These were:
 - Narrowing down / filtering
 - Exact matches
 
-I created a linked backlog item in the [design system](https://design.homeoffice.gov.uk/) where people can discuss the pattern for future iterations, and worked with Marion and Guerman, to help with content and accessibility on the guidance to be published. The result after several months of iteration and was published guiadnce that provides a base for [search pattern documentation](https://design.homeoffice.gov.uk/patterns/search-for-something)
+I created a linked backlog item in the [design system](https://design.homeoffice.gov.uk/) where people can discuss the pattern for future iterations, and worked with Marion and Guerman, to help with content and accessibility on the guidance to be published. The result after several months of iteration and was published guidancence for [search for something](https://design.homeoffice.gov.uk/patterns/search-for-something)
 
 
 <figure>
-    <img class="shadow" src="/_includes/assets/img/search-for-something.png"
+    <img class="shadow margin-top-64" src="/_includes/assets/img/search-for-something.png"
          alt="Image of the search pattern page I led the work on">
     <figcaption>Search pattern page, with enormous help from Marion and Guerman</figcaption>
 </figure>

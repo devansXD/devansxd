@@ -37,6 +37,11 @@ $secondary-button: #898989;
 
 $border: #4E5455;
 
+@media screen and (min-width:768px) {
+	:root {
+		font-size: 1.1rem;
+	}
+}
 
 h1 {
 	font-family: 'Tiempos Headline', serif;
@@ -86,17 +91,13 @@ body {
 	background-color: $background;
 }
 
-main, nav, footer, #HeroSection  {
+main, nav, footer {
 	max-width: 37.5em;
 	margin: 0 auto;
 }
-@media only screen and (max-width: 599px) {
-	main, nav, footer{
-	  padding: 0 1em;
-	}
-	}
+
 @media screen and (max-width: 599px) {
-	body{
+	main p{
 		font-size: .842em;
 	}
 }
@@ -124,7 +125,6 @@ a[href]:hover{
 }
 
 }
-
 	a[href],
 	a[href]:visited {
 		
@@ -186,10 +186,6 @@ main {
 	}
   }
 
-main :first-child,
-main > article :first-child {
-	margin-top: 0;
-}
 
 pre {
 	font-size: 1.2em;
@@ -224,18 +220,19 @@ nav{
 }
 }
 
-/* Header Nav */
-@media only screen and (min-width: 600px) {
-	header nav li {
-	  font-size: 1em;
-	  
-	}
-  
+/* HEADER AND NAV  */
+
+
 header nav ul {
 	padding: 0;
+	margin:32px 0 0 0;
 	list-style: none;
+@media screen and (min-width:768px){
 	float: right;
-}
+	
+}	
+	
+
 }
 
 
@@ -256,7 +253,7 @@ header nav li {
   }
   @media only screen and (max-width: 599px) {
 	header nav li {
-	  font-size: .5em;
+	  font-size: .842em;
 	  
 	}
   }
@@ -303,7 +300,15 @@ main > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
 }
+/* LISTS */
 
+main ul{
+	display: block;
+	margin-bottom: 64px;
+	li {
+		line-height: 1.5em;
+	}
+}
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
@@ -357,34 +362,41 @@ textarea {
 
 
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
-}
+
+@media screen and (min-width:600px){
+	
+
 footer ul{
 	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	
-}
-footer li{
+ li{
 	list-style-type: none;
 	margin-right: 20px;
 	display: flex;
 }
-#HeroWrapper{
-	width: 100%;
-	background-color: $secondary-colour;
-	margin-bottom: 36px;
 }
-#HeroSection{
-	
-	max-width: 37.5em;
-	height: 5em;
+}
 
+@media screen and (max-width:599px){
+
+footer ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+ li{
+	list-style-type: none;
+	margin-right: 20px;
+	display: block;
 }
+}
+}
+
+
 a#Logo{
 	padding: .5em;
 	border: 3px solid $primary-colour;
@@ -446,4 +458,24 @@ a.btn-secondary{
         padding: 4px;
 
     }
+}
+/* MODIFIERS */
+
+.margin-top-32{
+	margin-top:32px;
+}
+.margin-top-64{
+margin-top:64px;
+}
+.margin-top-128px{
+	margin-top:128px;
+}
+.margin-bottom-32{
+	margin-bottom:32px;
+}
+.margin-bottom-64{
+margin-bottom:64px;
+}
+.margin-bottom-128px{
+	margin-bottom:128px;
 }
