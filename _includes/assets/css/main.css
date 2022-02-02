@@ -1,15 +1,11 @@
+@import url("components/summary-list.css");
 @font-face {
   font-family: 'Tiempos Headline Black';
-  src: url('TiemposHeadline-Black.eot');
-  src: url('TiemposHeadline-Black.eot?#iefix') format('embedded-opentype'),
-  url('TiemposHeadline-Black.woff') format('woff'),
-  url('TiemposHeadline-Black.ttf') format('truetype');
+  src: url("TiemposHeadline-Black.eot");
+  src: url("TiemposHeadline-Black.eot?#iefix") format("embedded-opentype"), url("TiemposHeadline-Black.woff") format("woff"), url("TiemposHeadline-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  }
-
-
-
+}
 
 h1 {
   font-family: 'Tiempos Headline', serif;
@@ -67,9 +63,15 @@ main, nav, footer, #HeroSection {
 }
 
 @media only screen and (max-width: 599px) {
-main, nav, footer{
-  padding: 0 1em;
+  main, nav, footer {
+    padding: 0 1em;
+  }
 }
+
+@media screen and (max-width: 599px) {
+  body {
+    font-size: .842em;
+  }
 }
 
 p,
@@ -110,22 +112,32 @@ img.border {
   border-bottom: 5px solid #E2674D;
 }
 
+img.shadow {
+  -webkit-box-shadow: 0px 0px 15px 0px #898989;
+          box-shadow: 0px 0px 15px 0px #898989;
+}
+
+img.blur {
+  -webkit-filter: blur(5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
 #container a {
   color: #E2674D;
 }
 
-@media only screen and (min-width: 600px) {
 header,
 main,
 footer {
   padding: 1em 0;
   width: 100%;
 }
-}
+
 @media only screen and (min-width: 600px) {
-.indented-content {
-  padding-left: 64px;
-}
+  .indented-content {
+    padding-left: 64px;
+  }
 }
 
 p.lede-text {
@@ -210,7 +222,7 @@ header nav ul :first-child {
 header nav li {
   display: inline-block;
   margin: 0 .25em;
-  font-size: 1.2em;
+  font-size: 1.1875em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -221,7 +233,7 @@ header nav li {
 
 @media only screen and (max-width: 599px) {
   header nav li {
-    font-size: 1em;
+    font-size: .5em;
   }
 }
 
@@ -235,6 +247,21 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
   border-bottom: 4px solid #E2674D;
+}
+
+section {
+  margin-bottom: 64px;
+}
+
+section h2, section p {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .842em;
+  line-height: 1em;
+  padding-top: .5em;
+  margin-bottom: 64px;
 }
 
 /* Posts List */
@@ -251,14 +278,6 @@ article p {
 main > section > article > * {
   margin-top: 0;
   margin-bottom: .5em;
-}
-
-section {
-  margin-bottom: 64px;
-}
-
-section h2, section p{
-  margin: 0;
 }
 
 /* Post Tags */
@@ -338,7 +357,7 @@ footer li {
 
 #HeroWrapper {
   width: 100%;
-  background-color: #c2fff9;
+  background-color: #898989;
   margin-bottom: 36px;
 }
 
@@ -383,7 +402,7 @@ a[href].btn-primary a[href].btn-primary:visited {
 }
 
 a.btn-secondary {
-  background-color: #c2fff9;
+  background-color: #898989;
   padding: .5em;
   color: #898989;
 }
@@ -414,16 +433,3 @@ a.btn-secondary {
   padding: 4px;
 }
 /*# sourceMappingURL=main.css.map */
-
-/* MARGINS */
-
-.margin-s{
-  margin: 32px;
-
-}
-.margin-m{
-  margin: 64px;
-}
-.margin-l{
-  margin: 128px;
-}

@@ -1,12 +1,24 @@
 
+// FONTS
+
+@font-face {
+	font-family: 'Tiempos Headline Black';
+	src: url('TiemposHeadline-Black.eot');
+	src: url('TiemposHeadline-Black.eot?#iefix') format('embedded-opentype'),
+	url('TiemposHeadline-Black.woff') format('woff'),
+	url('TiemposHeadline-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
 @import url("components/summary-list.css");
 
 // PALLETTE
 
 
 
-$primary-brand: #E2674D;
-$secondary-brand:#c2fff9;
+$primary-colour: #E2674D;
+$secondary-colour:#898989;
 
 // BACKGROUNDS
 $background:#f9f9f9;
@@ -14,7 +26,7 @@ $background:#f9f9f9;
 // FONTS
 $primary-font: #494949;
 $secondary-font: #898989;
-$font-body: 1.2em;
+$font-body: 1.1875em;
 
 // BUTTONS
 $primary-button: #f9f9f9;
@@ -27,13 +39,15 @@ $border: #4E5455;
 
 
 h1 {
-	font-family: 'PT Serif', serif;
+	font-family: 'Tiempos Headline', serif;
 	display: block;
 	font-size: 3em;
 	line-height: 1em;
 	margin-bottom:64px;
 }
 h2 {
+	font-family: 'Tiempos Headline', serif;
+	display: block;
 	font-size: 2em;
 	line-height: 1em;
 	a[href]{
@@ -58,7 +72,8 @@ html,
 body {
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: $font-body;
-    line-height: 1.5em;
+	line-height: 1.5em;
+    
     overflow-wrap: break-word;
     word-wrap: break-word;
 	color: $primary-font;
@@ -75,7 +90,17 @@ main, nav, footer, #HeroSection  {
 	max-width: 37.5em;
 	margin: 0 auto;
 }
-
+@media only screen and (max-width: 599px) {
+	main, nav, footer{
+	  padding: 0 1em;
+	}
+	}
+@media screen and (max-width: 599px) {
+	body{
+		font-size: .842em;
+	}
+}
+	
 p,
 pre,
 code {
@@ -103,7 +128,7 @@ a[href]:hover{
 	a[href],
 	a[href]:visited {
 		
-		color:$primary-brand;
+		color:$primary-colour;
 		text-decoration: underline;
 		
 		
@@ -119,10 +144,18 @@ img {
 	height: auto;
 }
 img.border{
-	border-bottom: 5px solid $primary-brand;
+	border-bottom: 5px solid $primary-colour;
+}
+img.shadow{
+	box-shadow:0px 0px 15px 0px $secondary-colour;
+}
+img.blur {
+		-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+		filter: blur(5px);
+	
 }
 #container a{
-	color: $primary-brand;
+	color: $primary-colour;
 }
 header,
 main,
@@ -131,9 +164,12 @@ footer {
 	width: 100%;
 
 }
-.indented-content{
-	padding-left: 64px;
-}
+@media only screen and (min-width: 600px) {
+
+	.indented-content {
+	  padding-left: 64px;
+	}
+	}
 
 p.lede-text{
 	font-size: 1.2em;
@@ -235,8 +271,23 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	
-	border-bottom: 4px solid $primary-brand;
+	border-bottom: 4px solid $primary-colour;
 }
+
+section {
+	margin-bottom: 64px;
+  }
+  
+  section h2, section p{
+	margin: 0;
+  }
+
+  figcaption{
+	  font-size: .842em;
+	  line-height: 1em;
+	  padding-top: .5em;
+	  margin-bottom: 64px ;
+  }
 
 /* Posts List */
 article {
@@ -325,7 +376,7 @@ footer li{
 }
 #HeroWrapper{
 	width: 100%;
-	background-color: $secondary-brand;
+	background-color: $secondary-colour;
 	margin-bottom: 36px;
 }
 #HeroSection{
@@ -336,7 +387,7 @@ footer li{
 }
 a#Logo{
 	padding: .5em;
-	border: 3px solid $primary-brand;
+	border: 3px solid $primary-colour;
 	text-decoration: none;
 	color: $primary-font;
 	font-weight: bold;
@@ -355,19 +406,19 @@ a.btn{
 	display:inline-block;
 }
 a[href].btn-primary{
-	background-color:$primary-brand;
+	background-color:$primary-colour;
 	padding: .75em;
 	border: 1px solid ;
 	color: $primary-button;
 	:hover{
-    background-color: opacify($color: $primary-brand, $amount: .5);
+    background-color: opacify($color: $primary-colour, $amount: .5);
 	}
 	a[href].btn-primary:visited{
 		color: #f9f9f9;
 	}
 }
 a.btn-secondary{
-	background-color:$secondary-brand;
+	background-color:$secondary-colour;
 	padding: .5em;
 	color: $secondary-button;
 
