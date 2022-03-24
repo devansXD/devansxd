@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-title: Case studies
-metaDescription: Case studies page.
-description: Some work I'm extremely proud to have led or contributed to.
-permalink: /case-studies/index.html
+title: Test
+metaDescription: test page.
+description: Blurb.
+permalink: /test/index.html
 eleventyNavigation:
-  key: Case studies
-  order: 2
+  key: Test
+  order: 5
 ---
 
 <section>

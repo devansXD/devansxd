@@ -25,7 +25,7 @@ I create products and services that meet the needs of users. I have worked as a 
 I have now coached and mentored dozens of NHS Digital and Home Office colleagues in both basic user centred design practice, and prototyping methods. I’m proud to have grown UCD as a practice in incredibly large and complex organisations, and helped build the confidence of many junior designers.
 
 <figure>
-    <img src="/_includes/assets/img/coaching.JPG"
+    <img src="/_includes/assets/img/coaching.jpg"
          alt="Image of me, facilitating a course for NHS Digital colleagues in UCD">
     <figcaption>Me, facilitating a course for NHS Digital colleagues in UCD</figcaption>
 </figure>
